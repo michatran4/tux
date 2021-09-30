@@ -7,30 +7,32 @@
         <meta name="description" content="Commands for GNU/Linux">
     <body>
 <main>
-<h1>INSERTCOMMAND</h1>
-<img src=""></img>
+<h1>man</h1>
 
-<p>INSERTDESCRIPTION
+<p>man is used to access system manuals.
 </p>
 
 <h2>Usage</h2>
 
 <ul>
-<li>INSERTCOMMAND [options]</li>
+<li>man [options] [command]</li>
 </ul>
 
 
 <h2>Options</h2>
-<p>INSERTDESCRIPTION
+<p>man has options for ease of searching through man pages.
+    It can be used without any options to display the entire manual page.
     </p>
 <ul>
-<li><b>INSERTOPTION</b> INSERTDESCRIPTION</li>
+<li><b>[n]</b> display section <i>n</i> of a man page.</li>
+<li><b>-f</b> displays the section in which the command is present.</li>
+<li><b>-a</b> displays all of the man pages in succession.</li>
+<li><b>-k</b> takes the command provided as regex, and returns man pages with the section number in which the regex matches.</li>
+<li><b>-w</b> returns the file path of the man page of the command</li>
+<li><b>-I</b> case sensitive option</li>
 </ul>
 
-<h2>Source code</h2>
-<p>INSERTPROGRAM is in development. You can view its source code <a href="INSERTLINK">here.</a></p>
-
-</main><p><i>Command added on INSERTDATE, last edited on: INSERTDATE</i></p>
+</main><p><i>Command added on 2021-09-28</i></p>
 <footer>
     <hr>
     <a href="../index.html">homepage</a>

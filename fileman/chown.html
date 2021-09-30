@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%221em%22 font-size=%2280%22&gt;%F0%9F%90%A7&lt;/text&gt;&lt;/svg&gt;">
+        <link rel="stylesheet" href="../style.css">
+        <title>Tux's Commands</title>
+        <meta name="description" content="Commands for GNU/Linux">
+    <body>
+<main>
+<h1>chown</h1>
+
+<p>chown (changes) the file (owner) and group.
+</p>
+
+<h2>Usage</h2>
+
+<ul>
+<li>chown [options] [owner][:[group]] [file]</li>
+</ul>
+
+
+<h2>Options</h2>
+<p>If only an owner is provided, then the owner now owns the file.
+    If the owner is followed by a colon and group, then the group also owns the file.
+    If there is a colon with no group, then the group of the owner also owns the file.
+    </p>
+<p>
+    By default, symbolic links are not traversed recursively, and the referent of the links are affected by chown.
+</p>
+<ul>
+<li><b>-c</b> Like the verbose option, but only state changes</li>
+<li><b>-f</b> Suppress most error messages</li>
+<li><b>-h</b> Change the ownership of symbolic links instead of the referenced file</li>
+<li><b>-v</b> List every file operation</li>
+<li><b>-R</b> Change file permissions recursively</li>
+</ul>
+
+</main><p><i>Command added on 2021-09-30</i></p>
+<footer>
+    <hr>
+    <a href="../index.html">homepage</a>
+    <br>
+    <p>All site content is in the <a href="http://unlicense.org/">Public Domain.</a></p>
+</footer>
+
+
+</body></html>

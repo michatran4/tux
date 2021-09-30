@@ -7,12 +7,31 @@
         <meta name="description" content="Commands for GNU/Linux">
     <body>
 <main>
-<h1>clear</h1>
+<h1>tree</h1>
 
-<p>clear clears the terminal screen.
+<p>tree lists the contents of directories recursively and in a tree-like format.
 </p>
 
-</main><p><i>Command added on 2021-09-27</i></p>
+<h2>Usage</h2>
+
+<ul>
+<li>tree [options] [directory]</li>
+</ul>
+
+
+<h2>Options</h2>
+<p>By default, hidden files aren't printed.
+    </p>
+<ul>
+<li><b>-a</b> Print all files.</li>
+<li><b>-d</b> Print only directories</li>
+<li><b>-f</b> Print the entire file path, including the prefix, for each file</li>
+<li><b>-i</b> Don't print identation lines; can be useful when paired with <b>-f</b></li>
+<li><b>-l</b> Follows through with symbolic links that point to directories (avoids recursion if detected)</li>
+<li><b>-L</b> The max display depth of the directory tree</li>
+</ul>
+
+</main><p><i>Command added on 2021-09-29, last edited on: 2021-09-30</i></p>
 <footer>
     <hr>
     <a href="../index.html">homepage</a>
