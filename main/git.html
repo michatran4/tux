@@ -27,20 +27,33 @@
 <h2>Examples</h2>
 <ul>
     <!--https://git-scm.com/docs-->
-<li><b>git config</b> </li>
+<li><b>git config --global -e</b> Edit the user configuration for git.</li>
 <li><b>git init .</b> Initialize a repository in the root folder.</li>
-<li><b>git clone</b> Clone a remote repository.</li>
+<li><b>git clone [url]</b> Clone a remote repository.</li>
 <li><b>git add .</b> Start tracking all of the files of the repository.</li>
-<li><b>git commit -a -m "<i>message</i>" .</b> Create a commit with all of the staged changes of tracked files.</li>
-<li><b>git commit -m "<i>message</i>" .</b> </li>
-<li><b>git diff</b> </li> 
-    <!-- reset commit, delete first commit, rm, pull, push, log, status-->
+<li><b>git commit -a -m "<i>message</i>"</b> Create a commit, automatically staging all changes of tracked files.</li>
+<li><b>git commit -m "<i>message</i>"</b> Create a commit with all of the staged changes of tracked files.</li>
+<li><b>git diff [a] [b]</b> Find the differences between two files and produce a git diff output. Should be used in conjunction with applying patches.</li> 
+<li><b>git apply [patch]</b> Apply the patch file according to the header.</li>
+<li><b>git reset --soft HEAD~1</b> Soft reset to the latest git commit.</li> 
+<li><b>git reset --hard HEAD~1</b> Hard reset to the latest git commit.</li>
+<li><b>git reset HEAD [file]</b> Unstage a file.</li>
+<li><b>git update-ref -d HEAD</b> Deletes an initial commit (soft). You can also delete the .git directory (hard).</li> 
+<li><b>git rm [file]</b> Stages removing a file.</li> 
+<li><b>git restore [file]</b> Restores an unstaged file.</li> 
+<li><b>git update-index --assume-unchanged</b> Tells git to stop checking for changes in a folder.</li> 
+    <!-- rm --cached, pull, push, log, status-->
+</ul>
+
+<h2>Tips</h2>
+<ul>
+    <li>Use .gitignore to make git ignore specific files.</li>
 </ul>
 
 <h2>Source code</h2>
 <p>git is in development. You can view its source code <a href="https://github.com/git/git">here.</a></p>
 
-</main><p><i>Command added on 2021-10-07</i></p>
+</main><p><i>Command added on 2021-10-07, last edited on: 2021-10-08</i></p>
 <footer>
     <hr>
     <a href="../index.html">homepage</a>
