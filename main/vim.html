@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%221em%22 font-size=%2280%22&gt;%F0%9F%90%A7&lt;/text&gt;&lt;/svg&gt;">
+        <link rel="stylesheet" href="../style.css">
+        <title>Tux's Commands</title>
+        <meta name="description" content="Commands for GNU/Linux">
+    <body>
+<main>
+<h1>vim</h1>
+<img src="../img/vim.png">
+    <p style="text-align:center;font-style:italic;font-size:small">
+        By <a href="https://commons.wikimedia.org/wiki/User:D0ktorz" title="User:D0ktorz">User:D0ktorz</a> - <a href="https://commons.wikimedia.org/wiki/File:Vimlogo.png" class="image">Image</a> reworked in SVG, <a href="http://www.gnu.org/licenses/gpl.html" title="GNU General Public License">GPL</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=1228427">Link</a>
+    </p>
+</img>
+
+<p>vim is a text editor.
+</p>
+
+<h2>Usage</h2>
+
+<ul>
+<li>vim [file(s)]</li>
+</ul>
+
+
+<h2>Options</h2>
+<ul>
+<li><b>-n</b> Don't use a swap file.</li>
+<li><b>-R</b> Read-only mode.</li>
+<li><b>-x</b> Encrypt written files.</li>
+</ul>
+
+<h2>Examples</h2>
+<p>
+    vim is a keyboard centric editor.
+</p>
+<p><b>Basics</b></p>
+<ul>
+<li><b>i</b> Go into insert mode (left of the cursor).</li>
+<li><b>ESC</b> Return to command mode.</li>
+<li><b>h</b> Move left one character</li>
+<li><b>j</b> Move down one line</li>
+<li><b>k</b> Move up one line</li>
+<li><b>l</b> Move right one character</li>
+<li><b>w</b> Move forward to the beginning of the next word</li>
+<li><b>e</b> Move forward to the end of the next word</li>
+<li><b>b</b> Move back one word</li>
+<li><b>/</b> Search</li>
+<li><b>n</b> Next item in search</li>
+<li><b>N</b> Previous item in search</li>
+<li><b>p</b> Paste after cursor</li>
+<li><b>x</b> Delete one character</li>
+<li><b>y</b> Yank/copy</li>
+<li><b>Y</b> Yank line</li>
+<li><b>u</b> Undo</li>
+<li><b>^r</b> Redo</li>
+<li><b>v</b> Visual mode</li>
+<li><b>V</b> Visual line mode</li>
+<li><b>^v</b> Visual column mode</li>
+<li><b>:[number]</b> Go to a line number.</li>
+<li><b>:w</b> Write</li>
+<li><b>:wq</b> Write and quit</li>
+<li><b>:q</b> Quit</li>
+<li><b>:q!</b> Force quit</li>
+</ul>
+
+<p><b>More editing</b></p>
+<ul>
+<li><b>a</b> Go into insert mode to the right of the cursor.</li>
+<li><b>A</b> Go into insert mode at the end of the line.</li>
+<li><b>I</b> Go into insert mode at the first non-whitespace character.</li>
+<li><b>J</b> Join the current line with the next line.</li>
+<li><b>o</b> Make a new line below the current line and go into insert mode.</li>
+<li><b>O</b> Make a new line above the current line and go into insert mode.</li>
+<li><b>s</b> Change the current character.</li>
+<li><b>S, cc</b> Change the current line.</li>
+<li><b>></b> Indent</li>
+<li><b><</b> Unindent</li>
+</ul>
+
+<p><b>More moving</b></p>
+<ul>
+<li><b>W</b> Move forward one Word (beginning)</li>
+<li><b>E</b> Move forward one Word (end)</li>
+<li><b>B</b> Move back one Word</li>
+<li><b>0</b> Go to the beginning of the line.</li>
+<li><b>$</b> Go to the end of the line.</li>
+<li><b>gg</b> Go to the beginning of the file.</li>
+<li><b>G</b> Go to the end of the file.</li>
+<li><b>t[char]</b> Go to the next occurrence of char.</li>
+<li><b>T[char]</b> Go to the previous occurrence of char.</li>
+<li><b>{</b> Go to the previous section, separated by newlines.</li>
+<li><b>}</b> Go to the next section, separated by newlines.</li>
+</ul>
+
+<p><b>Change/Delete</b></p>
+<p>The change (c) and delete (d) commands can be used as a prefix for other binds.</p>
+<ul>
+<li><b>[prefix]w</b> Operate on the word at the cursor</li>
+<li><b>[prefix]t[char]</b> Operate from the cursor to the next occurrence of char.</li>
+<li><b>[prefix]T[char]</b> Operate from the cursor to the previous occurrence of char.</li>
+<li><b>[PREFIX]</b> Operate to the end of a line.</li>
+</ul>
+
+<p><b>Miscellaneous</b></p>
+<ul>
+<li><b>~ </b> Toggle case of a character.</li>
+<li><b>gq </b> Format a visual section to the correct number of characters per line.</li>
+<li><b>:[command]</b> Execute a command.</li>
+</ul>
+
+<h2>Source code</h2>
+<p>vim is in development. You can view its source code <a href="https://github.com/vim/vim">here.</a></p>
+<p>neovim, a fork of vim, is also in development. You can view its source code <a href="https://github.com/neovim/neovim">here.</a></p>
+
+</main><p><i>Command added on 2021-10-15</i></p>
+<footer>
+    <hr>
+    <a href="../index.html">homepage</a>
+    <br>
+    <p>All site content is in the <a href="http://unlicense.org/">Public Domain.</a></p>
+</footer>
+
+
+</body></html>
