@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%221em%22 font-size=%2280%22&gt;%F0%9F%90%A7&lt;/text&gt;&lt;/svg&gt;">
+        <link rel="stylesheet" href="../style.css">
+        <title>Tux's Commands</title>
+        <meta name="description" content="Commands for GNU/Linux">
+    <body>
+<main>
+<h1>ssh</h1>
+
+<p>ssh is used to remotely login to other computers and execute commands.
+</p>
+
+<h2>Usage</h2>
+<ul>
+<li>ssh [options] [destination] [command]</li>
+</ul>
+
+
+<h2>Options</h2>
+<ul>
+<li><b>-p</b> Specify the port to connect to.</li>
+<li><b>-q</b> Quiet mode.</li>
+<li><b>-X</b> Enables X11 forwarding.</li>
+</ul>
+
+<h2>Key-based SSH</h2>
+<p>Use public key authentication instead of just passwords.</p>
+<ul>
+<li>Generate public and private SSH keys on the client.</li>
+    <ul>
+        <li>If it doesn't already exist, <code>mkdir ~/.ssh</code></li>
+        <li><code>ssh-keygen -t rsa -b 4096</code></li>
+        <li>Public key: ~/.ssh/id_rsa.pub</li>
+        <li>Private key: ~/.ssh/id_rsa</li>
+    </ul>
+<li>Transfer the public key.</li>
+    <ul>
+        <li>If the host is currently using password authentication, <code>ssh-copy-id user@host</code></li>
+        <li>Else, copy the public key file to the host and add it manually to ~/.ssh/authorized_keys</li>
+    </ul>
+</ul>
+
+</main><p><i>Command added on 2021-10-18</i></p>
+<footer>
+    <hr>
+    <a href="../index.html">homepage</a>
+    <br>
+    <p>All site content is in the <a href="http://unlicense.org/">Public Domain.</a></p>
+</footer>
+
+
+</body></html>
