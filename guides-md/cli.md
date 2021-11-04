@@ -29,7 +29,7 @@ The greater than symbol can be used to redirect output.
 - **#!/bin/bash** uses the bash shell.
 - **#!/usr/bin/env python3** uses a Python interpreter.
 
-*Command added on 2021-10-25, last edited on 2021-10-27*
+*Page added on 2021-10-25, last edited on 2021-10-27*
 
 ---
 

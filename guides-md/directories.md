@@ -23,7 +23,7 @@ Linux directories can be separated into root's directories and a normal user's d
 - **~/.local/bin** is for local executables.
 - **~/.local/share** is for user data.
 
-*Command added on 2021-10-27*
+*Page added on 2021-10-27*
 
 ---
 

@@ -3,7 +3,7 @@ description
 
 ## Options
 
-*Command added on date, last edited on: date*
+*Page added on date, last edited on: date*
 
 ---
 
