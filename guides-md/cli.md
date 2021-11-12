@@ -3,7 +3,9 @@ The command line interface usually has some general features to aid the average 
 It is considered to be much more versatile than a graphical interface.
 
 ## -h and -v
-Commands usually have a -h and a -v option. -h displays the help for the command, and -v displays the version of the utility.
+Commands usually have a -h and a -v option. -h displays the help for the
+command, and -v displays the version of the utility. However, -v can also be
+used to toggle verbosity.
 
 ## Linux Control Operators
 - **;** indicates separate commands.
