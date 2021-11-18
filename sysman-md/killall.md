@@ -1,7 +1,7 @@
 # killall
 killall terminates processes by their name.
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

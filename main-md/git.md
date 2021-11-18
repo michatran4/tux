@@ -44,7 +44,7 @@ git is a version control system.
 ## Source code
 git is in development. You can view its source code [here.](https://github.com/git/git)
 
-*Command added on 2021-10-07, last edited on: 2021-10-11*
+*Page added on 2021-10-07, last edited on: 2021-10-11*
 
 ---
 

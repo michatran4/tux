@@ -13,7 +13,7 @@ By default, hidden files aren't printed.
 - **-l** Follows through with symbolic links that point to directories (avoids recursion if detected)
 - **-L** The max display depth of the directory tree
 
-*Command added on 2021-09-29, last edited on: 2021-09-30*
+*Page added on 2021-09-29, last edited on: 2021-09-30*
 
 ---
 

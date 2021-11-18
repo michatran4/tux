@@ -1,7 +1,7 @@
 # top
 top displays Linux processes.
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

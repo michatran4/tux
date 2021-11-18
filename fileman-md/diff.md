@@ -18,7 +18,7 @@ diff compares files, line by line.
 - **-I, --ignore-matching-lines=RE** ignore changes where all lines match the regular expression
 - **--strip-trailing-cr** strip trailing carriage return on input
 
-*Command added on 2021-10-01*
+*Page added on 2021-10-01*
 
 ---
 

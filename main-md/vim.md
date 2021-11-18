@@ -86,7 +86,7 @@ vim is in development. You can view its source code [here.](https://github.com/v
 
 neovim, a fork of vim, is also in development. You can view its source code [here.](https://github.com/neovim/neovim)
 
-*Command added on 2021-10-15*
+*Page added on 2021-10-15*
 
 ---
 

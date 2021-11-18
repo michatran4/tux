@@ -9,7 +9,7 @@ mkdir creates directories, if they do not already exist.
 - **-p** no error if existing; make parent directories as needed
 - **-v** list every file operation
 
-*Command added on 2021-10-01*
+*Page added on 2021-10-01*
 
 ---
 

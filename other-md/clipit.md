@@ -1,7 +1,7 @@
-## clipit
+# clipit
 clipit is a lightweight GTK+ clipboard manager.
 
-*Command added on 2021-10-12*
+*Page added on 2021-10-12*
 
 ---
 

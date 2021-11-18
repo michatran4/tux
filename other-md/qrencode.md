@@ -7,7 +7,7 @@ qrencode encodes input data into a QR code and outputs a PNG file.
 ## Options
 - **s** [number] specify the size of the pixel
 
-*Command added on 2021-11-03*
+*Page added on 2021-11-03*
 
 ---
 

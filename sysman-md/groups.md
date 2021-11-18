@@ -1,7 +1,7 @@
 # groups
 groups prints the groups a user is in.
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

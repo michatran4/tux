@@ -15,7 +15,7 @@ By default, feh is an image viewer.
 - **--bg-tile** Tile the image if it is too small.
 - **--no-fehbg** Do not write a *~/.fehbg* file.
 
-*Command added on 2021-10-12*
+*Page added on 2021-10-12*
 
 ---
 

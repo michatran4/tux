@@ -12,7 +12,7 @@ By default, symbolic links are not traversed recursively, and the referent of th
 - **-v** List every file operation
 - **-R** Change file permissions recursively
 
-*Command added on 2021-09-30*
+*Page added on 2021-09-30*
 
 ---
 

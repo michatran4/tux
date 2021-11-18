@@ -13,7 +13,7 @@ dmenu_run can be used as an application launcher.
 ## Source code
 dmenu is in development. You can view its source code [here.](https://git.suckless.org/dmenu/)
 
-*Command added on 2021-10-20*
+*Page added on 2021-10-20*
 
 ---
 

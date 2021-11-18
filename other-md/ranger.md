@@ -11,7 +11,7 @@ ranger is a CLI file manager.
 ## Source code
 ranger is in development. You can view its source code [here.](https://github.com/ranger/ranger)
 
-*Command added on 2021-10-19*
+*Page added on 2021-10-19*
 
 ---
 

@@ -6,7 +6,7 @@ pdfcrop can be used to crop pdf files.
 
 Negative values for margins crop, and positive values add a white border.
 
-*Command added on 2021-10-19*
+*Page added on 2021-10-19*
 
 ---
 

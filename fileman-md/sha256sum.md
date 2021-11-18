@@ -13,7 +13,7 @@ With no file, or when the file provided is -, sha256sum reads the standard input
 - **--status** don't output anything , status code shows success
 - **-w** warn about improperly formatted checksum lines
 
-*Command added on 2021-10-01*
+*Page added on 2021-10-01*
 
 ---
 

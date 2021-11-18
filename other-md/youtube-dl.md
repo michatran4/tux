@@ -19,7 +19,7 @@ youtube-dl downloads videos from youtube and many other sites.
 ## Source code
 youtube-dl is in development. You can view its source code [here.](https://github.com/ytdl-org/youtube-dl)
 
-*Command added on 2021-10-19*
+*Page added on 2021-10-19*
 
 ---
 

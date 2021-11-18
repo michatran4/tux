@@ -8,7 +8,7 @@ bc is a language that can be used on the command line as a calculator.
 - **-l** Define the standard math library.
 - **-q** Don't print the welcome.
 
-*Command added on 2021-10-12*
+*Page added on 2021-10-12*
 
 ---
 

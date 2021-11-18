@@ -15,7 +15,7 @@ Additional shortcuts for paths can usually be sourced for each new instance of t
 - **../** the root of the root folder
 - **~** the current shell user's home directory, usually /home/*user*
 
-*Command added on 2021-09-29, last edited on: 2021-11-04*
+*Page added on 2021-09-29, last edited on: 2021-11-04*
 
 ---
 

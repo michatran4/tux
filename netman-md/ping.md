@@ -1,7 +1,7 @@
 # ping
 ping pings network hosts.
 
-*Command added on 2021-10-07*
+*Page added on 2021-10-07*
 
 ---
 

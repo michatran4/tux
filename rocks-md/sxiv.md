@@ -9,7 +9,7 @@ sxiv is the simple X image viewer.
 - **-S [seconds]** Opens in slideshow mode, with a delay between images.
 - **-z [percentage]** Zoom in.
 
-*Command added on 2021-10-20*
+*Page added on 2021-10-20*
 
 ---
 

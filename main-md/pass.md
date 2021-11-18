@@ -16,7 +16,7 @@ With no options, pass prints out the existing passwords.
 - **rm [name]** Removes the password.
 - **show [-c] [name]** Shows the password. -c copies the password instead of printing.
 
-*Command added on 2021-10-14*
+*Page added on 2021-10-14*
 
 ---
 

@@ -1,7 +1,7 @@
 # poweroff
 poweroff powers off the system.
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

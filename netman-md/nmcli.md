@@ -9,7 +9,7 @@ nmcli is a command line interface for NetworkManager.
 - **nmcli device wifi list** Lists available Wi-Fi networks
 - **nmcli device wifi connect *SSID* password *password*** Connects to a wireless network
 
-*Command added on 2021-10-07*
+*Page added on 2021-10-07*
 
 ---
 

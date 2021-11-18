@@ -16,7 +16,7 @@ If you specify more than one of -i, -f, or -n, only the final one takes effect.
 - **-u** Only move when the source file is newer than the destination file, or if the destination file does not exist
 - **-v** List every file operation
 
-*Command added on 2021-10-01*
+*Page added on 2021-10-01*
 
 ---
 

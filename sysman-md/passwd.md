@@ -6,7 +6,7 @@ Normal users can only change their own password. Super users can change any user
 ## Usage
 - passwd [user]
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

@@ -16,7 +16,7 @@ dwm is a dynamic window manager for the X window system.
 ## Source code
 dwm is in development. You can view its source code [here.](https://git.suckless.org/dwm)
 
-*Command added on 2021-10-20*
+*Page added on 2021-10-20*
 
 ---
 

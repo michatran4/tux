@@ -9,7 +9,7 @@ GnuPG allows you to encrypt and sign data.
 - **gpg --list-secret-keys --keyid-format LONG** Fetch your public key under **sec rsa2048/*KEY***.
 - **gpg -d [file.gpg]** Decrypt a .gpg file.
 
-*Command added on 2021-10-14*
+*Page added on 2021-10-14*
 
 ---
 

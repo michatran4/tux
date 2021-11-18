@@ -9,7 +9,7 @@ st is the simple/suckless terminal.
 ## Source code
 st is in development. You can view its source code [here.](https://git.suckless.org/st)
 
-*Command added on 2021-10-20*
+*Page added on 2021-10-20*
 
 ---
 

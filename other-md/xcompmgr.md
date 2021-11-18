@@ -1,7 +1,7 @@
 # xcompmgr
 xcompmgr is an X window system compositing manager.
 
-*Command added on 2021-10-19*
+*Page added on 2021-10-19*
 
 ---
 

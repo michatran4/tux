@@ -16,7 +16,7 @@ By default, cp does not copy recursively.
 - **-u** Only copy when the source file is newer than the destination file, or if the destination file does not exist
 - **-v** List every file operation
 
-*Command added on 2021-09-30*
+*Page added on 2021-09-30*
 
 ---
 

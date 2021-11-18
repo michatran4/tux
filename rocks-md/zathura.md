@@ -17,7 +17,7 @@ Options listed are default keybinds.
 ## Source code
 zathura is in development. You can view its source code [here.](https://github.com/pwmt/zathura)
 
-*Command added on 2021-10-21*
+*Page added on 2021-10-21*
 
 ---
 

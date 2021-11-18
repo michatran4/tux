@@ -11,7 +11,7 @@ tmux is a terminal multiplexer. It allows for running multiple detachable termin
 ## Source code
 tmux is in development. You can view its source code [here.](https://github.com/tmux/tmux)
 
-*Command added on 2021-10-21*
+*Page added on 2021-10-21*
 
 ---
 

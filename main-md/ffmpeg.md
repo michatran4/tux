@@ -17,7 +17,7 @@ ffmpeg requires an input file and an output file name. ffmpeg also automatically
 ## Source code
 ffmpeg is in development. You can view its source code [here.](https://git.ffmpeg.org/ffmpeg.git)
 
-*Command added on 2021-09-16, last edited on: 2021-10-19*
+*Page added on 2021-09-16, last edited on: 2021-10-19*
 
 ---
 

@@ -9,7 +9,7 @@ zip compresses files into an archive.
 - **-r** recursively zip
 - **-u** update an entry in the zip archive if it is updated
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

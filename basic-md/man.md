@@ -14,7 +14,7 @@ man has options for ease of searching through man pages. It can be used without 
 - **-w** returns the file path of the man page of the command
 - **-I** case sensitive option
 
-*Command added on 2021-09-28*
+*Page added on 2021-09-28*
 
 ---
 

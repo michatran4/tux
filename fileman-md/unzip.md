@@ -1,7 +1,7 @@
 # unzip
 unzip decompresses archives.
 
-*Command added on 2021-10-06*
+*Page added on 2021-10-06*
 
 ---
 

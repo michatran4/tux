@@ -11,7 +11,7 @@ By default, rm does not remove directories; use **-r**.
 - **--one-file-system** if removing a hierarchy recursively, skip directories that are different from the file system of the original argument
 - **-r** recursively remove directories and their contents
 
-*Command added on 2021-10-01*
+*Page added on 2021-10-01*
 
 ---
 

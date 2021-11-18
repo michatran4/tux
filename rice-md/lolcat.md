@@ -4,7 +4,7 @@ lolcat displays text with rainbow colors.
 ## Usage
 - [command] | lolcat
 
-*Command added on 2021-10-21*
+*Page added on 2021-10-21*
 
 ---
 

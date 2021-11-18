@@ -21,7 +21,7 @@ Use public key authentication instead of just passwords.
     - If the host is currently using password authentication, <code>ssh-copy-id user@host</code>
     - Else, copy the public key file to the host and add it manually to ~/.ssh/authorized_keys
 
-*Command added on 2021-10-18*
+*Page added on 2021-10-18*
 
 ---
 

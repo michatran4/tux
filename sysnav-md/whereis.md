@@ -9,7 +9,7 @@ whereis prints out the file path to the binary, source code, and manual of the p
 - **-m** Only manual sections
 - **-s** Only sources
 
-*Command added on 2021-09-29*
+*Page added on 2021-09-29*
 
 ---
 
