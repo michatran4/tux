@@ -15,7 +15,3 @@ machines with more than one user.
 
 *Page added on 2021-11-10*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

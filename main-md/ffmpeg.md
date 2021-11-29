@@ -7,6 +7,7 @@ ffmpeg is a powerful suite of programs and libraries for converting and processi
 
 ## Options
 ffmpeg requires an input file and an output file name. ffmpeg also automatically applies its own compression, so you could just pass it a file with the -i flag and it will try its best to compress the file.
+
 - **-i** Location of the input file on the system
 - **-ss** Beginning timestamp to process media, default is the beginning of the file
 - **-to** Ending timestamp to process media, default is the end of the file
@@ -19,7 +20,3 @@ ffmpeg is in development. You can view its source code [here.](https://git.ffmpe
 
 *Page added on 2021-09-16, last edited on: 2021-10-19*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

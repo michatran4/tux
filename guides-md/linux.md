@@ -135,7 +135,3 @@ Raspberry Pi OS pings a Microsoft software repository when updating.
 
 *Page added on 2021-11-08*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

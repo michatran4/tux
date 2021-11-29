@@ -28,7 +28,3 @@ mpv is in development. You can view its source code [here.](https://github.com/m
 
 *Page added on 2021-09-16, last edited on: 2021-10-04*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

@@ -11,7 +11,3 @@ sxiv is the simple X image viewer.
 
 *Page added on 2021-10-20*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

@@ -11,7 +11,3 @@ grep prints lines that match patterns.
 
 *Page added on 2021-10-04*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

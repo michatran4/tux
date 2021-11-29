@@ -20,7 +20,3 @@ different port number as the machine uses a non default ssh port.
 
 *Page added on 2021-11-12*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

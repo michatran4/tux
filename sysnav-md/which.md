@@ -10,7 +10,3 @@ By default, only the first matching executable is printed.
 
 *Page added on 2021-09-28*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

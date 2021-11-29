@@ -6,6 +6,7 @@ rm removes/unlinks files or directories.
 
 ## Options
 By default, rm does not remove directories; use **-r**.
+
 - **-f, --force** ignore nonexistent files, never prompt
 - **-i** prompt before every removal
 - **--one-file-system** if removing a hierarchy recursively, skip directories that are different from the file system of the original argument
@@ -13,7 +14,3 @@ By default, rm does not remove directories; use **-r**.
 
 *Page added on 2021-10-01*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

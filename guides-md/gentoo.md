@@ -14,9 +14,7 @@ graphics with Gentoo.
 `mirrorselect -i -o >> /mnt/gentoo/etc/portage/make.conf`
 
 - Emerge **rust-bin** before running `emerge --sync`.
-
 - Install ccache.
-
 - I accept every package license in **/etc/portage/package.license**.
 
 ## NVIDIA with Gentoo
@@ -33,7 +31,3 @@ I use xrandr to fix my display orientations.
 
 *Page added on 2021-11-09*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

@@ -20,7 +20,3 @@ diff compares files, line by line.
 
 *Page added on 2021-10-01*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

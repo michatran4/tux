@@ -6,6 +6,7 @@ cp copies files from all directories up to the last directory, to the last direc
 
 ## Options
 By default, cp does not copy recursively.
+
 - **-i** Prompts before overwriting a file
 - **-n** Do not overwrite any existing files (overrides a previous -i option)
 - **-p** Preserve attributes
@@ -18,7 +19,3 @@ By default, cp does not copy recursively.
 
 *Page added on 2021-09-30*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

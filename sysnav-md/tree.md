@@ -6,6 +6,7 @@ tree lists the contents of directories recursively and in a tree-like format.
 
 ## Options
 By default, hidden files aren't printed.
+
 - **-a** Print all files.
 - **-d** Print only directories
 - **-f** Print the entire file path, including the prefix, for each file
@@ -15,7 +16,3 @@ By default, hidden files aren't printed.
 
 *Page added on 2021-09-29, last edited on: 2021-09-30*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

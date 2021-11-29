@@ -16,7 +16,3 @@ man has options for ease of searching through man pages. It can be used without 
 
 *Page added on 2021-09-28*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

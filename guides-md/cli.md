@@ -33,7 +33,3 @@ The greater than symbol can be used to redirect output.
 
 *Page added on 2021-10-25, last edited on 2021-10-27*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

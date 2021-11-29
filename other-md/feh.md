@@ -9,6 +9,7 @@ feh is an image viewer and wallpaper setter.
 
 ## Background options
 By default, feh is an image viewer.
+
 - **--bg-center** Center the file on the background, using a black border if the image is too small.
 - **--bg-fill** Fills the background with the image, preserving aspect ratio.
 - **--bg-scale** Fills the background with the image, disregarding aspect ratio.
@@ -17,7 +18,3 @@ By default, feh is an image viewer.
 
 *Page added on 2021-10-12*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

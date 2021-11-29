@@ -6,6 +6,7 @@ chown changes the file owner and group.
 
 ## Options
 By default, symbolic links are not traversed recursively, and the referent of the links are affected by chown.
+
 - **-c** Like the verbose option, but only state changes
 - **-f** Suppress most error messages
 - **-h** Change the ownership of symbolic links instead of the referenced file
@@ -14,7 +15,3 @@ By default, symbolic links are not traversed recursively, and the referent of th
 
 *Page added on 2021-09-30*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

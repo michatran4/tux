@@ -6,6 +6,7 @@ Rufus/balenaEtcher can be used to flash an ISO image to a USB drive.
 
 ## During installation
 btrfs is a very good filesystem.
+
 - One must format the partitions after allocating space for them.
 
 ## Post installation
@@ -28,6 +29,7 @@ more space. These commands need root permission.
 Use the appropriate filesystem type and partition name.
 
 - Create a new partition, format it, and mount it to **/mnt**.
+
 - `cp -rp /home/* /mnt`
 - `cd /`
 - `mv /home /home.orig`
@@ -49,7 +51,3 @@ up the refresh rate.
 
 *Page added on 2021-11-10*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

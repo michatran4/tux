@@ -6,6 +6,7 @@ sha256sum computes, checks, and prints the SHA256 message digest.
 
 ## Options
 With no file, or when the file provided is -, sha256sum reads the standard input.
+
 - **-c** read SHA256 sums from the FILEs and check them
 
 ## Verifying Checksums Options
@@ -15,7 +16,3 @@ With no file, or when the file provided is -, sha256sum reads the standard input
 
 *Page added on 2021-10-01*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

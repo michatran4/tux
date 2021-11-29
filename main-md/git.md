@@ -46,7 +46,3 @@ git is in development. You can view its source code [here.](https://github.com/g
 
 *Page added on 2021-10-07, last edited on: 2021-10-11*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

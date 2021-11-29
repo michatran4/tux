@@ -10,7 +10,3 @@ require a restart for Alacritty to return to a usable state.*
 
 *Page added on 2021-11-12*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

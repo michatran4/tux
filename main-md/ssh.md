@@ -11,6 +11,7 @@ ssh is used to remotely login to other computers and execute commands.
 
 ## Key-based SSH
 Use public key authentication instead of just passwords.
+
 - Generate public and private SSH keys on the client.
     - If it doesn't already exist, <code>mkdir ~/.ssh</code>
     - <code>ssh-keygen -t rsa -b 4096</code>
@@ -23,7 +24,3 @@ Use public key authentication instead of just passwords.
 
 *Page added on 2021-10-18*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

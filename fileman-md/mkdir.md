@@ -11,7 +11,3 @@ mkdir creates directories, if they do not already exist.
 
 *Page added on 2021-10-01*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

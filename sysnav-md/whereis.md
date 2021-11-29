@@ -11,7 +11,3 @@ whereis prints out the file path to the binary, source code, and manual of the p
 
 *Page added on 2021-09-29*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

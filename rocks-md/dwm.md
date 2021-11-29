@@ -18,7 +18,3 @@ dwm is in development. You can view its source code [here.](https://git.suckless
 
 *Page added on 2021-10-20*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

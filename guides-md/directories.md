@@ -25,7 +25,3 @@ Linux directories can be separated into root's directories and a normal user's d
 
 *Page added on 2021-10-27*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).

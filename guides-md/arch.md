@@ -33,6 +33,7 @@ pacman can ignore packages in **/etc/pacman.conf**, specified by the **IgnorePkg
 
 Install an AUR helper, like `yay`, to help with the AUR. Options are the same as
 pacman.
+
 - `git clone https://aur.archlinux.org/yay.git`
 - `cd yay`
 - `makepkg -si`
@@ -48,7 +49,3 @@ Example:
 
 *Page added on 2021-11-10*
 
----
-
-[homepage](../index.html)\
-All site content is in the [Public Domain](http://unlicense.org/).
