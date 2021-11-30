@@ -3,7 +3,7 @@ import json, markdown, os, shutil
 from bs4 import BeautifulSoup
 # do not generate new web pages with one open in a browser
 
-def category_tree(category, files, footer):
+def category_tree(category, files, footer): # creates pages for each category/directory
     output = ""
     dir_write = os.getcwd() + "/out/" + category # directory to write to
     os.mkdir(dir_write)
@@ -11,11 +11,16 @@ def category_tree(category, files, footer):
         filename = filename.replace("\n", "") # could be passed with order.txt, which has newlines
         with open(directory + "-md/" + filename) as file:
             lines = file.readlines() # store so it doesn't act like a scanner, keep entire file for md conversion
-            filename = filename.replace(".md", ".html")
-            lines.extend(footer)
+            filename = filename.replace(".md", ".html") # write to html, using md file name
+            lines.extend(footer) # add footer (MD) to the page for conversion
             output += "- [" + lines[0][2:-1] + "](./" + category + "/" + filename + ")\n"
-            write = open(dir_write + "/" + filename, "x")
-            page = markdown.markdown("".join(lines))
+            write = open(dir_write + "/" + filename, "x", encoding="utf-8") # encoding for the penguin
+            with open("./build/template.html", encoding="utf-8") as template: # template for each page
+                page = template.readlines()
+            for i in range(0, len(page)): # find the part to insert page content
+                if "[REPLACE]\n" in page[i]:
+                    page[i] = markdown.markdown("".join(lines))
+            page = '\n'.join(page) # to beautify html requires it to be a string
             soup = BeautifulSoup(page, "html.parser")
             page = soup.prettify()
             write.write(page)
@@ -24,12 +29,12 @@ def category_tree(category, files, footer):
 
 if __name__ == "__main__":
     try:
-        shutil.rmtree('./out')
+        shutil.rmtree('./out') # clean build
     except:
         None
     os.mkdir('./out') # for output files
 
-    with open("./build/categories.json") as file:
+    with open("./build/categories.json") as file: # all categories/headers
         categories = json.load(file)
     indexMD = ""
     # create indexMD, pages generated along the process
@@ -48,7 +53,7 @@ if __name__ == "__main__":
         if description != "":
             indexMD += description + "\n\n"
 
-        directory = os.getcwd() + "/" + category
+        directory = os.getcwd() + "/" + category # create pages from this directory
         file_list = os.listdir(directory + "-md")
 
         with open("./build/page_footer.md") as page_footer:
@@ -64,19 +69,19 @@ if __name__ == "__main__":
 - I made this site as an archive for the most important things I have learned on GNU/Linux, hence why the pages are lacking extraneous options I don't use.
 - I included systemd because I use Arch Linux often.
 """
-    indexMD += ''.join(footer)
+    indexMD += ''.join(footer) # global variable i guess
 
-    dir_write = os.getcwd() + "/out/"
-    with open("./build/index.html", encoding="utf-8") as template:
+    with open("./build/index.html", encoding="utf-8") as template: # index template
         html = template.readlines()
-    for i in range(0, len(html)):
+    for i in range(0, len(html)): # insert page content, which is a table of contents
         if "[REPLACE]\n" in html[i]:
             html[i] = markdown.markdown(indexMD)
 
-    html = '\n'.join(html)
+    html = '\n'.join(html) # beautify requires a string
     soup = BeautifulSoup(html, "html.parser")
     html = soup.prettify()
-    write = open("./out/index.html", "x", encoding="utf-8")
+    write = open("./out/index.html", "x", encoding="utf-8") # encoding for the penguin
     write.write(html) # can't convert entirety to markdown, breaks when detects html lol
     write.close()
     shutil.copyfile("./build/style.css", "./out/style.css")
+    shutil.copytree("./img", "./out/img")

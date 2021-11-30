@@ -17,7 +17,8 @@ btrfs is a very good filesystem.
 
 ### Window managers
 Window managers are a minimalist alternative to desktop environments.
-They typically operating with keybinds.
+They typically operate with keybinds.
+
 - Install a window manager, terminal emulator, and file manager.
 - One may want a display manager or status bar.
 - I use a clipboard manager, clipit.

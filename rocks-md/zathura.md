@@ -8,6 +8,7 @@ zathura is a minimalist document viewer.
 Keybinds are just like [vim](../main/vim.html) for basic movement. All bindings can be remapped with the zathurarc configuration file.
 
 Options listed are default keybinds.
+
 - **J** Next page
 - **K** Previous page
 - **+** Zoom in

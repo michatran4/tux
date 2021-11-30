@@ -26,7 +26,8 @@ The greater than symbol can be used to redirect output.
 - \>> appends the output to the file.
 
 ## Shebangs
-#! followed by a path makes the shell use the specified interpreter, when the file is used as an executable.
+\#! followed by a path makes the shell use the specified interpreter, when the file is used as an executable.
+
 - **#!/bin/sh** uses a POSIX compliant shell.
 - **#!/bin/bash** uses the bash shell.
 - **#!/usr/bin/env python3** uses a Python interpreter.

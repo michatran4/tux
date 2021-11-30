@@ -18,7 +18,7 @@ git is a version control system.
 - **git pull [remote]** Pulls from a remote name or URL. 
 - **git reset --soft HEAD~1** Soft reset to the latest git commit. 
 - **git reset --hard HEAD~1** Hard reset to the latest git commit.
-- **git reset HEAD [file]** Unstage a file.
+- **git reset [file]** Unstage a file.
 - **git rm [file]** Stages removing a file and removes it locally. 
 - **git rm --cached [file]** Stages removing a file and keeps it locally. 
 - **git remote add [name] [url]** Assign a remote repository to a name. 

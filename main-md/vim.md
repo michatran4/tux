@@ -1,7 +1,7 @@
 # vim
 ![](../img/vim.png)
 
-By [User:D0ktorz](https://commons.wikimedia.org/wiki/User:D0ktorz) - [Image](https://commons.wikimedia.org/wiki/File:Vimlogo.png) reworked in SVG, [GPL](http://www.gnu.org/licenses/gpl.html), [Link](https://commons.wikimedia.org/w/index.php?curid=1228427)
+*Image by [User:D0ktorz](https://commons.wikimedia.org/wiki/User:D0ktorz) - [Image](https://commons.wikimedia.org/wiki/File:Vimlogo.png) reworked in SVG, [GPL](http://www.gnu.org/licenses/gpl.html), [Link](https://commons.wikimedia.org/w/index.php?curid=1228427)*
 
 vim is a text editor.
 
@@ -71,6 +71,7 @@ vim is a keyboard centric program.
 
 ### Change/Delete
 The change (c) and delete (d) commands can be used as a prefix for other binds.
+
 - **[prefix]w** Operate on the word at the cursor
 - **[prefix]t[char]** Operate from the cursor to the next occurrence of char.
 - **[prefix]T[char]** Operate from the cursor to the previous occurrence of char.

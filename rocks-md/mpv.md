@@ -8,6 +8,7 @@
 
 ## Keyboard Controls
 mpv should be controlled using the keyboard.
+
 - **LEFT/RIGHT** -5/+5 seconds
 - **UP/DOWN** +1/-1 minute
 - **p/SPACE** Pause and unpause

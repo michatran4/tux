@@ -1,7 +1,7 @@
 # ranger
 ![](../img/ranger.png)
 
-ranger logo by [zaeph](https://github.com/zaeph) and [hut](https://github.com/hut) is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+*ranger logo by [zaeph](https://github.com/zaeph) and [hut](https://github.com/hut) is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.*
 
 ranger is a CLI file manager.
 
