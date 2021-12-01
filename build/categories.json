@@ -1,0 +1,15 @@
+{
+    "basic": "Basic Commands",
+    "sysnav": "System Navigation",
+    "fileman": "File Management",
+    "sysman": "System Management",
+    "netman": "Network Management",
+    "main": "CLI Programs and Utilities",
+    "other": {"Other CLI Programs and Utilities":
+        "These programs aren't necessary for the true Linux experience, but they are useful utilities."},
+    "rocks": "Software that rocks!",
+    "rice": "Programs for ricing screenshots",
+    "misc": "Miscellaneous software",
+    "guides": "Guides",
+    "personal": "Personal Software and Configs"
+}

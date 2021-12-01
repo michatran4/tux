@@ -1,0 +1,7 @@
+cli.md
+directories.md
+fonts.md
+linux.md
+arch.md
+gentoo.md
+installation.md
