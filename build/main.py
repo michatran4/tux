@@ -3,7 +3,7 @@ import json, markdown, os, shutil
 from bs4 import BeautifulSoup
 # do not generate new web pages with one open in a browser
 
-def category_tree(category, files, footer): # creates pages for each category/directory
+def category_tree(category, files, page_footer): # creates pages for each category/directory
     output = ""
     dir_write = os.getcwd() + "/out/" + category # directory to write to
     os.mkdir(dir_write)
@@ -12,7 +12,7 @@ def category_tree(category, files, footer): # creates pages for each category/di
         with open(directory + "-md/" + filename) as file:
             lines = file.readlines() # store so it doesn't act like a scanner, keep entire file for md conversion
             filename = filename.replace(".md", ".html") # write to html, using md file name
-            lines.extend(footer) # add footer (MD) to the page for conversion
+            lines.extend(page_footer) # add footer (MD) to the page for conversion
             output += "- [" + lines[0][2:-1] + "](./" + category + "/" + filename + ")\n"
             write = open(dir_write + "/" + filename, "x", encoding="utf-8") # encoding for the penguin
             with open("./build/template.html", encoding="utf-8") as template: # template for each page
@@ -56,20 +56,17 @@ if __name__ == "__main__":
         directory = os.getcwd() + "/" + category # create pages from this directory
         file_list = os.listdir(directory + "-md")
 
-        with open("./build/page_footer.md") as page_footer:
-            footer = page_footer.readlines()
+        with open("./build/page_footer.md") as footer:
+            page_footer = footer.readlines()
         if "order.txt" in os.listdir(directory + "-md"):
             with open(directory + "-md/order.txt") as filenames:
                 file_list = filenames.readlines()
-        indexMD += category_tree(category, file_list, footer) + "\n"
+        indexMD += category_tree(category, file_list, page_footer) + "\n"
 
     # index footer
-    indexMD += """### About
-- I am [Michael Tran](https://ttrraann.com), a junior in high school.
-- I made this site as an archive for the most important things I have learned on GNU/Linux, hence why the pages are lacking extraneous options I don't use.
-- I included systemd because I use Arch Linux often.
-"""
-    indexMD += ''.join(footer) # global variable i guess
+    with open("./build/index_footer.md") as footer:
+        index_footer = footer.readlines()
+    indexMD += ''.join(index_footer)
 
     with open("./build/index.html", encoding="utf-8") as template: # index template
         html = template.readlines()
