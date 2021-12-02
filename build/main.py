@@ -2,6 +2,7 @@
 import json, markdown, os, shutil
 from bs4 import BeautifulSoup
 # do not generate new web pages with one open in a browser
+# if 'access is denied' then redo the script
 
 def category_tree(category, files, page_footer): # creates pages for each category/directory
     output = ""
