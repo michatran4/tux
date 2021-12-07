@@ -1,8 +1,10 @@
 # Page generator
 import json, markdown, os, shutil
-from bs4 import BeautifulSoup
 # do not generate new web pages with one open in a browser
 # if 'access is denied' then redo the script
+from lxml.html.soupparser import fromstring
+import lxml.etree as etree
+from lxml.etree import tostring
 
 def category_tree(category, files, page_footer): # creates pages for each category/directory
     output = ""
@@ -15,17 +17,14 @@ def category_tree(category, files, page_footer): # creates pages for each catego
             filename = filename.replace(".md", ".html") # write to html, using md file name
             lines.extend(page_footer) # add footer (MD) to the page for conversion
             output += "- [" + lines[0][2:-1] + "](./" + category + "/" + filename + ")\n"
-            write = open(dir_write + "/" + filename, "x", encoding="utf-8") # encoding for the penguin
             with open("./build/template.html", encoding="utf-8") as template: # template for each page
                 page = template.readlines()
             for i in range(0, len(page)): # find the part to insert page content
                 if "[REPLACE]\n" in page[i]:
                     page[i] = markdown.markdown("".join(lines))
-            page = '\n'.join(page) # to beautify html requires it to be a string
-            soup = BeautifulSoup(page, "html.parser")
-            page = soup.prettify()
-            write.write(page)
-            write.close()
+            page = '\n'.join(page) # convert to one page
+            tree = etree.ElementTree(fromstring(page))
+            tree.write('./out/%s/%s' % (category, filename), encoding='utf-8', pretty_print=True)
     return output
 
 if __name__ == "__main__":
@@ -75,11 +74,8 @@ if __name__ == "__main__":
         if "[REPLACE]\n" in html[i]:
             html[i] = markdown.markdown(indexMD)
 
-    html = '\n'.join(html) # beautify requires a string
-    soup = BeautifulSoup(html, "html.parser")
-    html = soup.prettify()
-    write = open("./out/index.html", "x", encoding="utf-8") # encoding for the penguin
-    write.write(html) # can't convert entirety to markdown, breaks when detects html lol
-    write.close()
+    html = '\n'.join(html) # convert to one string
+    tree = etree.ElementTree(fromstring(html))
+    tree.write('./out/index.html', encoding='utf-8', pretty_print=True)
     shutil.copyfile("./build/style.css", "./out/style.css")
     shutil.copytree("./img", "./out/img")

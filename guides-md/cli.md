@@ -7,6 +7,8 @@ Commands usually have a -h and a -v option. -h displays the help for the
 command, and -v displays the version of the utility. However, -v can also be
 used to toggle verbosity.
 
+Options can also be combined in some, like [bc](../other/bc.html) where you can use <code>bc -lq</code>.
+
 ## Linux Control Operators
 - **;** indicates separate commands.
 - **&** indicates the line preceding it is run in the background.
@@ -32,5 +34,5 @@ The greater than symbol can be used to redirect output.
 - **#!/bin/bash** uses the bash shell.
 - **#!/usr/bin/env python3** uses a Python interpreter.
 
-*Page added on 2021-10-25, last edited on 2021-10-27*
+*Page added on 2021-10-25, last edited on 2021-12-07*
 
