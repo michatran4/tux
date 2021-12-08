@@ -15,8 +15,9 @@ diff compares files, line by line.
 - **-b, --ignore-space-change** ignore changes in amounts of white space
 - **-w, --ignore-all-space** ignore all white space
 - **-B, --ignore-blank-lines** ignore changes where lines are all blank
-- **-I, --ignore-matching-lines=RE** ignore changes where all lines match the regular expression
+- **-I, --ignore-matching-lines=RE** ignore changes where all lines match the
+regular expression
 - **--strip-trailing-cr** ignore line endings
 
-*Page added on 2021-10-01, last edited on 2021-12-02*
+*Page added on 2021-10-01, last edited on: 2021-12-02*
 

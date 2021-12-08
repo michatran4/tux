@@ -1,5 +1,6 @@
 # Linux Directories
-Linux directories can be separated into root's directories and a normal user's directories. Each directory has a unique purpose.
+Linux directories can be separated into root's directories and a normal user's
+directories. Each directory has a unique purpose.
 
 ## Root
 - **/bin** contains essential binaries.

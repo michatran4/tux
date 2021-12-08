@@ -1,7 +1,7 @@
 # mpv
 ![](../img/mpv.png)
 
-[mpv](https://mpv.io/) is a free and open source media player.
+[mpv](https://mpv.io) is a free and open source media player.
 
 ## Usage
 - mpv [options] file
@@ -25,7 +25,8 @@ mpv should be controlled using the keyboard.
 - **Q** Quit and store the current position of playback
 
 ## Source code
-mpv is in development. You can view its source code [here.](https://github.com/mpv-player/mpv)
+mpv is in development. You can view its source code
+[here.](https://github.com/mpv-player/mpv)
 
 *Page added on 2021-09-16, last edited on: 2021-10-04*
 

@@ -6,7 +6,8 @@ Arch Linux has been my daily driver for the past two years of using Linux.
     - 1's i's and L's may look very similar when inputting an SSID.
 - cfdisk can be used to partition disks graphically.
     - M stands for MB and G stands for GB.
-    - Remember to have an EFI partition if necessary. EFIs have the type 'EFI system' and roots have the type 'Linux filesystem.'
+    - Remember to have an EFI partition if necessary. EFIs have the type 'EFI
+    system' and roots have the type 'Linux filesystem.'
 - Install networkmanager with pacstrap for networking.
 - Install efibootmgr and os-prober for multiple operating systems.
 - Install vim or nano for text editing.

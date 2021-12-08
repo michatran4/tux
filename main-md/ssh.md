@@ -19,8 +19,10 @@ Use public key authentication instead of just passwords.
     - Private key: ~/.ssh/id_rsa
     
 - Transfer the public key.
-    - If the host is currently using password authentication, <code>ssh-copy-id user@host</code>
-    - Else, copy the public key file to the host and add it manually to ~/.ssh/authorized_keys
+    - If the host is currently using password authentication, <code>ssh-copy-id
+    user@host</code>
+    - Else, copy the public key file to the host and add it manually to
+    ~/.ssh/authorized_keys
 
 *Page added on 2021-10-18*
 

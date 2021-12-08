@@ -74,7 +74,8 @@ The change (c) and delete (d) commands can be used as a prefix for other binds.
 
 - **[prefix]w** Operate on the word at the cursor
 - **[prefix]t[char]** Operate from the cursor to the next occurrence of char.
-- **[prefix]T[char]** Operate from the cursor to the previous occurrence of char.
+- **[prefix]T[char]** Operate from the cursor to the previous occurrence of
+char.
 - **[PREFIX]** Operate to the end of a line.
 
 ### Miscellaneous
@@ -83,9 +84,11 @@ The change (c) and delete (d) commands can be used as a prefix for other binds.
 - **:[command]** Execute a command.
 
 ## Source code
-vim is in development. You can view its source code [here.](https://github.com/vim/vim)
+vim is in development. You can view its source code
+[here.](https://github.com/vim/vim)
 
-neovim, a fork of vim, is also in development. You can view its source code [here.](https://github.com/neovim/neovim)
+neovim, a fork of vim, is also in development. You can view its source code
+[here.](https://github.com/neovim/neovim)
 
 *Page added on 2021-10-15*
 

@@ -2,12 +2,7 @@
 cat concatenates files and prints to standard output.
 
 ## Usage
-- cat [options] [file(s)]
+- cat [file(s)]
 
-## Examples
-With no file, or when the file provided is -, cat reads the standard input.
-
-- **cat f - g** Output *f*, then standard input, then *g*
-
-*Page added on 2021-10-04*
+*Page added on 2021-10-04, last edited on: 2021-12-08*
 

@@ -7,7 +7,8 @@ st is the simple/suckless terminal.
 - make clean install
 
 ## Source code
-st is in development. You can view its source code [here.](https://git.suckless.org/st)
+st is in development. You can view its source code
+[here.](https://git.suckless.org/st)
 
 *Page added on 2021-10-20*
 

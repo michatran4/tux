@@ -8,8 +8,10 @@ youtube-dl downloads videos from youtube and many other sites.
 - **-f, --format [format]** Specify the video format.
 - **--write-thumbnail** Saves the thumbnail image.
 - **--write-all-thumbnails** Saves all thumbnails.
-- **--no-playlist** Download only the video if the link leads to a playlist, too.
-- **--yes-playlist** Download the entire playlist if the link leads to a playlist, too.
+- **--no-playlist** Download only the video if the link leads to a playlist,
+too.
+- **--yes-playlist** Download the entire playlist if the link leads to a
+playlist, too.
 
 ## Post-processing Options
 - **-x, --extract-audio** Convert video files to purely audio.
@@ -17,7 +19,8 @@ youtube-dl downloads videos from youtube and many other sites.
 - **-k, --keep-video** Keep the video file after performing audio tasks.
 
 ## Source code
-youtube-dl is in development. You can view its source code [here.](https://github.com/ytdl-org/youtube-dl)
+youtube-dl is in development. You can view its source code
+[here.](https://github.com/ytdl-org/youtube-dl)
 
 *Page added on 2021-10-19*
 
