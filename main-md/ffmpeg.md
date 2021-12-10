@@ -19,10 +19,12 @@ file
 - **-t** how much time, in seconds, of the media to process
 - **-loop** usually for making gifs; loop the file
 - **-map_metadata -1** Strip metadata.
+- **-c:v copy** copy video stream
+- **-c:a copy** copy audio stream
 
 ## Source code
 ffmpeg is in development. You can view its source code
 [here.](https://git.ffmpeg.org/ffmpeg.git)
 
-*Page added on 2021-09-16, last edited on: 2021-12-08*
+*Page added on 2021-09-16, last edited on: 2021-12-10*
 

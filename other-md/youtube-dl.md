@@ -22,5 +22,9 @@ playlist, too.
 youtube-dl is in development. You can view its source code
 [here.](https://github.com/ytdl-org/youtube-dl)
 
-*Page added on 2021-10-19*
+It is recommended that you use a fork of youtube-dl, like
+[youtube-dlp](https://github.com/yt-dlp/yt-dlp), as youtube-dl's development has
+slowed down.
+
+*Page added on 2021-10-19, last edited on: 2021-12-10*
 
