@@ -1,6 +1,4 @@
 # mpv
-![](../img/mpv.png)
-
 [mpv](https://mpv.io) is a free and open source media player.
 
 ## Usage

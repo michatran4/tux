@@ -1,6 +1,4 @@
 # ffmpeg
-![](../img/FFmpeg.png)
-
 ffmpeg is a powerful suite of programs and libraries for converting and
 processing video and audio files.
 

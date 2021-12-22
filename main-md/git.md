@@ -1,6 +1,4 @@
 # git
-![Git Logo by Jason Long is licensed under the Creative Commons Attribution 3.0 Unported License.](../img/git.png)
-
 git is a version control system.
 
 ## Usage
