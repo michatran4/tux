@@ -1,5 +1,5 @@
 # Configuration files
-My files can be found [here.]()
+My files are a work in progress.
 
 ## Alacritty
 - **background_opacity: float** can be used to set the background opacity. This
