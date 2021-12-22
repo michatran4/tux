@@ -5,7 +5,8 @@ zathura is a minimalist document viewer.
 - zathura [file(s)]
 
 ## Keybinds
-Keybinds are just like [vim](../main/vim.html) for basic movement. All bindings can be remapped with the zathurarc configuration file.
+Keybinds are just like [vim](../main/vim.html) for basic movement. All bindings
+can be remapped with the zathurarc configuration file.
 
 Options listed are default keybinds.
 
@@ -16,7 +17,8 @@ Options listed are default keybinds.
 - **=** Reset zoom
 
 ## Source code
-zathura is in development. You can view its source code [here.](https://github.com/pwmt/zathura)
+zathura is in development. You can view its source code
+[here.](https://github.com/pwmt/zathura)
 
 *Page added on 2021-10-21*
 

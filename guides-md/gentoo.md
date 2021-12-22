@@ -4,7 +4,7 @@ Gentoo is one of the most tedious operating systems I have ever used.
 ## Installation
 - Revise **/etc/portage/make.conf**.
 
-https://gist.githubusercontent.com/michatran4/58e7ccb539156d69b6519d303e66b3d9/raw/c923fd3d3d5ec695deb27062c24af547346b6dd2/make.conf
+Here's my [make.conf](../gists/make.conf).
 
 These options should be customized according to one's hardware. I used NVIDIA
 graphics with Gentoo.

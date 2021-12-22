@@ -15,8 +15,8 @@ I like the backgrounds on my terminals slightly transparent.
 
 ## Brave
 The Brave browser is a Chromium based web browser that stands out with its own
-cryptocurrency, BAT. It has access to the same extensions that Chrome does, so it's
-practically the same, just without Google.
+cryptocurrency, BAT. It has access to the same extensions that Chrome does, so
+it's practically the same, just without Google.
 
 ## Text editing
 - I use [neovim](../main/vim.html) as my main text editor.
@@ -28,8 +28,8 @@ simple tasks.
 Z shell is a powerful alternative to bash.
 
 ## Miscellaneous software
-- I use [Audacity](https://www.audacityteam.org/) for audio editing.
-- I use [OBS](https://obsproject.com/) for video recording. I haven't fully
+- I use [Audacity](https://www.audacityteam.org) for audio editing.
+- I use [OBS](https://obsproject.com) for video recording. I haven't fully
 switched to ffmpeg.
 - [zathura](../rocks/zathura.html) is my pdf viewer of choice.
 

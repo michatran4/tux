@@ -1,5 +1,5 @@
 cli.md
-directories.md
+directories-files.md
 fonts.md
 linux.md
 arch.md

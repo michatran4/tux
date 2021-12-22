@@ -5,7 +5,8 @@ chown changes the file owner and group.
 - chown [options] [owner][:[group]] [file]
 
 ## Options
-By default, symbolic links are not traversed recursively, and the referent of the links are affected by chown.
+By default, symbolic links are not traversed recursively, and the referent of
+the links are affected by chown.
 
 - **-c** Like the verbose option, but only state changes
 - **-f** Suppress most error messages

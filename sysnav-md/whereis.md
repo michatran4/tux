@@ -1,5 +1,6 @@
 # whereis
-whereis prints out the file path to the binary, source code, and manual of the provided executables.
+whereis prints out the file path to the binary, source code, and manual of the
+provided executables.
 
 ## Usage
 - whereis [executable(s)]

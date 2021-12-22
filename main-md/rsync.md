@@ -8,9 +8,9 @@ It can also be used to sync contents between two directories.
 
 ## Options
 By default, rsync is not recursive.
-- **r** recursively sync, used for directories
-- **a** archive; sync recursively and preserve all file properties
-- **v** state all operations
+- **-r** recursively sync, used for directories
+- **-a** archive; sync recursively and preserve all file properties
+- **-v** toggle verbosity
 
 ## Examples
 - **rsync -a ~/dir1 user@host:dir2** sync a local directory/file to a remote server
@@ -18,5 +18,5 @@ By default, rsync is not recursive.
 - **rsync -ae 'ssh -p [1024]' [source] [dest]** sync, but provide a
 different port number as the machine uses a non default ssh port.
 
-*Page added on 2021-11-12*
+*Page added on 2021-11-12, last edited on: 2021-12-08*
 

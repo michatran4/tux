@@ -1,5 +1,6 @@
 # dmenu
-dmenu is a dynamic menu for X. It can be used to prompt for selecting an item in a list.
+dmenu is a dynamic menu for X. It can be used to prompt for selecting an item in
+a list.
 
 ## Usage
 - dmenu [options]
@@ -11,7 +12,8 @@ dmenu_run can be used as an application launcher.
 - **-p [prompt]** Prompt is displayed before the input area.
 
 ## Source code
-dmenu is in development. You can view its source code [here.](https://git.suckless.org/dmenu/)
+dmenu is in development. You can view its source code
+[here.](https://git.suckless.org/dmenu)
 
 *Page added on 2021-10-20*
 

@@ -7,7 +7,8 @@ pass stores, receives, generates, and synchronizes passwords.
 ## Options
 With no options, pass prints out the existing passwords.
     
-- **init "key"** Initialize a password store; should be done with your [GPG key.](./gpg.html)
+- **init "key"** Initialize a password store; should be done with your
+[GPG key.](./gpg.html)
 - **insert [name]** Insert a password with standard input.
 - **edit [name]** Edits a password. 
 - **generate [-n] [-c] [name] [length]** Generates a password.

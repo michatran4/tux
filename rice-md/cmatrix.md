@@ -1,4 +1,6 @@
 # cmatrix
+![](../img/cmatrix.png)
+
 cmatrix continously displays random text on a terminal screen.
 
 ## Usage
@@ -10,7 +12,8 @@ cmatrix continously displays random text on a terminal screen.
 - **-r** Rainbow mode
 
 ## Source code
-cmatrix is in development. You can view its source code [here.](https://github.com/abishekvashok/cmatrix)
+cmatrix is in development. You can view its source code
+[here.](https://github.com/abishekvashok/cmatrix)
 
-*Page added on 2021-10-21*
+*Page added on 2021-10-21, last edited on: 2021-12-21*
 
