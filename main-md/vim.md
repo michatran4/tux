@@ -76,8 +76,11 @@ char.
 
 ### Miscellaneous
 - **~** Toggle case of a character.
+- **U/u** Make a character uppercase/lowercase.
 - **gq** Format a visual section to the correct number of characters per line.
 - **:[command]** Execute a command.
+- **Ctrl+a** Add 1 to a number
+- **Ctrl+x** Remove 1 from a number
 
 ## Source code
 vim is in development. You can view its source code
@@ -86,5 +89,5 @@ vim is in development. You can view its source code
 neovim, a fork of vim, is also in development. You can view its source code
 [here.](https://github.com/neovim/neovim)
 
-*Page added on 2021-10-15*
+*Page added on 2021-10-15, last edited on: 2021-12-29*
 

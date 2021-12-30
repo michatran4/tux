@@ -48,5 +48,12 @@ Example:
 
     xdg-settings set default-web-browser brave.desktop
 
-*Page added on 2021-11-10*
+- reflector can be used to refresh the mirrorlist.
+
+Example:
+
+    reflector --country "United States" --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+
+*Page added on 2021-11-10, last edited on: 2021-12-30*
 
